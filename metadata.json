@@ -1,0 +1,39 @@
+{
+  "name": "thbe-owncloud",
+  "author": "Thomas Bendler \u003cproject@bendler-net.de\u003e",
+  "description": "Owncloud management module",
+  "license": "GPL",
+  "project_page": "https://github.com/thbe/owncloud.git",
+  "source": "git@github.com:thbe/owncloud.git",
+  "summary": "Owncloud management module",
+  "version": "0.1.0",
+  "checksums": {
+    "Modulefile": "71180882658882b15f70456f2656a158",
+    "README.markdown": "960884616a57da6f8f359e3598021fbd",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "files/yum/RPM-GPG-KEY-owncloud": "238984b96069df959b58387b403bb3da",
+    "manifests/config.pp": "dd9a75567c3e2b922d26bceb3f2884eb",
+    "manifests/init.pp": "ac767635ca0255fdf8e8d9f8a67061cf",
+    "manifests/package.pp": "9f80ebeb36562beaf34a477e83be3c45",
+    "manifests/package/yum.pp": "1f06813d271a4b3eac8dabb1a548897b",
+    "manifests/params.pp": "3d254880654aa0c66aaba0791e5a0f14",
+    "manifests/service.pp": "a3d62fe34ea6c7a6b4565d288b317f1f",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "tests/init.pp": "fb50a7a69419cc6596d4d61bc5986a16"
+  },
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": "\u003e\u003d3.2.0"
+    },
+    {
+      "name": "puppetlabs/apache",
+      "version_requirement": "\u003e\u003d0.5.0-rc1"
+    },
+    {
+      "name": "puppetlabs/mysql",
+      "version_requirement": "\u003e\u003d0.6.1"
+    }
+  ]
+}

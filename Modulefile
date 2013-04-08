@@ -1,0 +1,12 @@
+name 'thbe-owncloud'
+version '0.1.0'
+
+author 'Thomas Bendler <project@bendler-net.de>'
+license 'GPL'
+project_page 'https://github.com/thbe/owncloud.git'
+source 'git@github.com:thbe/owncloud.git'
+summary 'Owncloud management module'
+description 'Owncloud management module'
+dependency 'puppetlabs/stdlib', '>=3.2.0'
+dependency 'puppetlabs/apache', '>=0.5.0-rc1'
+dependency 'puppetlabs/mysql', '>=0.6.1'
